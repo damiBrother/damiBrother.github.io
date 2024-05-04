@@ -162,9 +162,9 @@ section
     text-align: center;
 }
 .products .box-container img{
-    width   : auto;
-    height: 20rem;
-    
+     width   : 100%;
+    height: auto;
+     
 }
 
 
