@@ -131,7 +131,7 @@ section
     display: inline-block;
     font-size: 1.7rem;
     color: #fff;
-    background: var(--black);
+    background: var(--green);
     border-radius: .5rem;
     cursor: pointer;
     padding: .8rem 3rem;
@@ -140,7 +140,7 @@ section
 }
 .btn:hover
 {
-    background: var(--green);
+    background: green;
     letter-spacing: 1rem;
 }
 
