@@ -141,7 +141,7 @@ section
 .btn:hover
 {
     background: green;
-    letter-spacing: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .products .box-container
@@ -161,13 +161,59 @@ section
     overflow: hidden;
     text-align: center;
 }
-.products .box-container img{
-     width   : 100%;
-    height: auto;
-     
+
+.products .box-container .box .fa-heart,
+.products .box-container .box .fa-eye
+{
+    position: absolute;
+    top: 1.5rem;
+    background: #eee;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--black);
 }
 
+.products .box-container .box .fa-heart:hover,
+.products .box-container .box .fa-eye:hover
+{
+    background: var(--green);
+    color: #fff;
+}
+.products .box-container .box .fa-heart
+{
+    right: -15rem;
+}
+.products .box-container .box .fa-eye
+{
+    left: -15rem;
+}
 
+.products .box-container .box:hover .fa-heart
+{
+    right: 1.5rem;
+}
+.products .box-container .box:hover .fa-eye
+{
+    left: 1.5rem;
+}
+.products .box-container .box img{
+    
+   height: 17rem;
+   margin: 1rem 0;
+    
+}
+.products .box-container .box .stars
+{
+    padding: 1rem 0;
+}
+.products .box-container .box .stars i
+{
+    font-size: 1.7rem;
+    color: var(--green);
+}
 
 
 
