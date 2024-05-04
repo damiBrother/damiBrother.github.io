@@ -182,17 +182,17 @@ header .icons #menu-bars
         background: #eee;
     }
     header .logo
-{
-   
-    font-size: 1.5rem;
+    {
     
-    
-}
+        font-size: 2rem;
+       
+        
+    }
 
     header .icons i,
     header .icons a
     {
-        margin-left: .25rem;    
+        margin-left: .2rem;    
        
         
     }
